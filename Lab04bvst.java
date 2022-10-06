@@ -15,6 +15,9 @@ public class Lab04bvst extends Applet
         // DRAW CUBE
 
 
+        g.drawLine(350, 300, 55, 300);
+        g.drawLine(350, 500, 600, 500);
+
 
         // DRAW SPHERE
 
