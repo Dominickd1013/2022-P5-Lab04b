@@ -23,27 +23,34 @@ public class Lab04bvst extends Applet
         int y375  = 375;
 
 
-        g.drawLine(x175, y25, x425, y25); // background line top
-        g.drawLine(xy225, y125, x475, y125); // foreground line bottom top
-        g.drawLine(x175, y25, xy225, y125); // background left line top
-        g.drawLine(x425, y25, x475, y125); // background line right top
+        g.drawLine(x175, y25, x425, y25);     // background line top
+        g.drawLine(xy225, y125, x475, y125);  // foreground line bottom top
+        g.drawLine(x175, y25, xy225, y125);   // background left line top
+        g.drawLine(x425, y25, x475, y125);    // background line right top
 
 
         g.drawLine(x175, xy225, x425, xy225); // background line bottom
-        g.drawLine(xy225, y375, x475, y375); // foreground line bottom
+        g.drawLine(xy225, y375, x475, y375);  // foreground line bottom
         g.drawLine(x175, xy225, xy225, y375); // background left line
-        g.drawLine(x425, xy225, x475, y375); // background line right
+        g.drawLine(x425, xy225, x475, y375);  // background line right
 
-        g.drawLine(x175, y25, x175, xy225); // background vertical line left
-        g.drawLine(x425, y25, x425, xy225); // background vertical line right
+        g.drawLine(x175, y25, x175, xy225);   // background vertical line left
+        g.drawLine(x425, y25, x425, xy225);   // background vertical line right
         g.drawLine(xy225, y125, xy225, y375); // foreground vertical line left
-        g.drawLine(x475, y125, x475, y375); // foreground vertical line right
+        g.drawLine(x475, y125, x475, y375);   // foreground vertical line right
 
 
 
         // DRAW SPHERE
 
-        g.drawOval(750, 800, 800, 750);
+        g.drawOval(200, 50, 250, 275);  // full circle
+        g.drawOval(200, 75, 250, 230);  // largest oval
+        g.drawOval(200, 100, 250, 180); // second oval
+        g.drawOval(200, 125, 250, 125); // third oval
+        g.drawOval(200, 125, 250, 125); // fourth oval
+        // g.drawOval(200, 150, 250, 80);  // fourth oval
+        // g.drawOval(200, 175, 250, 30);  // fifth oval
+
 
 
 
